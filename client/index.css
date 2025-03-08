@@ -1,0 +1,34 @@
+#connectionIcon {
+    font-size: 1.2rem;
+}
+#statusText {
+    font-weight: bold;
+}
+#messages {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+
+.blink {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 100%;
+    animation: blink 2s infinite;
+}
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
