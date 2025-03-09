@@ -10,7 +10,7 @@ This project demonstrates the use of Server-Sent Events (SSE) to send real-time 
 ## How to Run
 
 1. **Backend**:
-   - Navigate to the `backend` folder.
+   - Navigate to the `server` folder.
    - Run `npm install` to install dependencies.
    - Run `npm start` to start the server.
 
